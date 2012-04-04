@@ -5,10 +5,7 @@
 	NSString *photographer;
 }
 
-- (NSString *) caption;
-- (NSString *) photographer;
-
-- (void) setCaption: (NSString *)input;
-- (void) setPhotographer: (NSString *)input;
+@property (retain) NSString *caption;
+@property (retain) NSString *photographer;
 
 @end;
